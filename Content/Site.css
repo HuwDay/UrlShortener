@@ -29,3 +29,24 @@ textarea {
         padding: 0;
     }
 }
+
+.pnlMainHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f5;
+}
+
+    .pnlMainHeader input[type=text] {
+        text-align: center;
+    }
+
+.pnlMainHeaderRow {
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+}
+
+.pnlMainHeaderRow > span {
+    margin-right: 5px;
+}
